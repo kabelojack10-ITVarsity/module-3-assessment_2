@@ -1,0 +1,159 @@
+body{
+    font-family: sans-serif;
+}
+
+.home-list-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid green ;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width:80%;
+
+}
+.body-home{
+    background-image: url(images/azania-logo.jpg);
+    background-position: top;
+    background-attachment: fixed;
+  background-size:cover
+  
+  
+}
+
+.body-meals{
+    background-image: url(images/background-02-port.png);
+    background-position: top;
+    background-attachment: fixed;
+  background-size: cover;
+}
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: solid 5px #1a1a1a;
+    margin: 10px;
+    width:80%;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4a4a4a;
+    padding-left: 10px;
+    margin-top: auto;
+}
+
+.meals-list-item i{
+    float: right;
+    padding-right: 20px;
+    color: #1a1a1a;
+
+}
+
+.header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    
+    text-align: center;
+    
+}
+.header a{
+    text-decoration: none;
+}
+
+.header h1{
+    margin-top: 0;
+}
+
+.header i{
+    float: left;
+    margin-top: auto;
+    color: #ffffffff;
+}
+
+.meals{
+    padding-top: 50px;
+}
+
+#home{
+    padding-top: 50px;
+}
+
+.kota-details img{
+    width: 100%;
+   
+}
+
+.kota-details h1{
+font-size: 25px;
+text-align: center;
+border: 5px solid #1a1a1a;
+padding: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px;
+    border: 1px solid;
+    color: #929292;
+}
+.button{
+    display: block;
+    width:25%;
+    background-color: aqua;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 255);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.info-box img{
+   width: 100%;
+   
+}
+
+.info-box h2{
+  padding: 0;
+  margin-bottom: 0;
+  width: 90%;
+  color: #572800;
+}
+
+.info-box p{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #131313;
+  }
+  
